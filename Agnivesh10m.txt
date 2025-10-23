@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agnivesh10m Coding World</title>
+  <style>
+    body { margin:0; font-family: 'Courier New', monospace; background:#0d0d0d; color:#00ff00; }
+    header { background:#111; padding:20px; text-align:center; }
+    header h1 { margin:0; font-size:2.2em; }
+    nav { display:flex; justify-content:center; background:#222; }
+    nav a { color:#0f0; text-decoration:none; padding:15px 20px; }
+    nav a:hover { background:#0f0; color:#000; }
+    section { padding:40px 20px; max-width:1000px; margin:auto; }
+    h2 { border-bottom:1px solid #0f0; padding-bottom:5px; }
+    .project { background:#111; margin:15px 0; padding:15px; border-left:3px solid #0f0; }
+    footer { text-align:center; padding:20px; background:#111; margin-top:20px; }
+    .code-sample { background:#000; padding:10px; color:#0f0; font-family:monospace; overflow-x:auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Agnivesh10m Coding World</h1>
+  <p>Learn Python, HTML, CSS, JavaScript & More!</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#tutorials">Tutorials</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>About Me</h2>
+  <p>Hello! मैं Agnivesh10m हूँ। मैं Python, HTML, CSS और JavaScript projects बनाता हूँ और coding tutorials share करता हूँ। यहाँ आप मेरे सभी projects और codes देख सकते हैं।</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="project">
+    <h3>Python Example</h3>
+    <div class="code-sample">
+<pre>
+def greet(name):
+    return f"Hello {name}!"
+print(greet("Agnivesh10m"))
+</pre>
+    </div>
+  </div>
+  <div class="project">
+    <h3>HTML Example</h3>
+    <div class="code-sample">
+<pre>
+&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;This is HTML code example.&lt;/p&gt;
+</pre>
+    </div>
+  </div>
+</section>
+
+<section id="tutorials">
+  <h2>Tutorials</h2>
+  <p>Python Basics, HTML Forms, CSS Styling, JavaScript Functions और बहुत कुछ सीखें। यहाँ मैं step-by-step tutorials और examples share करता हूँ।</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:agnivesh10m@example.com" style="color:#0f0;">agnivesh10m@example.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Agnivesh10m | Follow me to learn coding!</p>
+</footer>
+
+</body>
+</html>
